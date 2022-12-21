@@ -41,7 +41,7 @@ body {
 .header {
        width: 100%;
        height: calc(100vh);
-       background: url('../img/xjxs-sky.jpg') no-repeat 50% 50%;
+       background: url('https://cdn.staticaly.com/gh/NI2CU/ICU_xinjiang/master/img/xjxs-sky.jpg') no-repeat 50% 50%;
        background-size: cover;
        position: relative;
        display: flex;
