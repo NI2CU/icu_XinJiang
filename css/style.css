@@ -1,0 +1,177 @@
+*{
+    -webkit-tap-highlight-color: transparent
+}
+a{
+    text-decoration: none;
+    color: #ffa461;
+}
+
+.ease3{
+    transition: all 0.3s ease;
+}
+.ease5 {
+    transition: all 0.5s ease;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #0072d3;
+}
+.container {
+
+    width: 100%;
+    height: auto;
+    margin: 300px auto auto;
+    max-width: 1200px;
+    padding: 40px 0 40px 0;
+}
+
+.container h1{
+    padding-left: 20px;
+}
+.container p{
+    padding: 20px;
+}
+
+.header {
+       width: 100%;
+       height: calc(100vh);
+       background: url('../img/xjxs-sky.jpg') no-repeat 50% 50%;
+       background-size: cover;
+       position: relative;
+       display: flex;
+       /*background-size: 100%;*/
+       place-content: center;
+       align-items: center;
+}
+.hh1{
+       font-size: 60px;
+       color: #fff;
+       font-weight: 700;
+       text-align: center;
+       margin: 0;
+}
+
+.header img{
+    width:100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+   h1,
+   blockquote,
+   p{
+       font-family: "Microsoft YaHei", serif;
+       color: #fff;
+   }
+
+blockquote {
+    background: rgba(249, 249, 249, 0.25);
+    border-left: 10px solid rgba(204, 204, 204, 0.85);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+    font-family: SimSun,"Microsoft YaHei", serif;
+}
+
+.alignRight{
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+p{
+       line-height: 40px;
+       font-weight: lighter;
+       font-size: 30px;
+
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.footer p{
+    font-size: 15px;
+}
+.copyright{
+    text-align: center;
+}
+.qr_code{
+    width:100%;
+    height: 150px;
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+.qr_code_img{
+    width: 15%;
+    margin: 0 0 1em 1em;
+    float: right;
+
+}
+@media screen and (max-width: 900px) {
+    .hh1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .header {
+        width: 100%;
+        height: calc(50vh);
+        background: url('../img/xjxs-sky.jpg') no-repeat 50% 50%;
+        background-size: 100%;
+        position: relative;
+
+    }
+    .header img{
+        /*display: none;*/
+    }
+    .container{
+
+        margin: 0 20px 20px 0;
+    }
+    .container h1{
+        padding-left: 20px;
+    }
+    .container p{
+        padding: 20px;
+    }
+    .qr_code_img{
+        width: 25%;
+    }
+
+}
